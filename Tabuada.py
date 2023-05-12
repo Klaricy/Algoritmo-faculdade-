@@ -1,10 +1,5 @@
-base = int(input("Informe o numero: "))
-expoente = int(input("Informe o numero: "))
-resultado = 1
+num = int(input("Informe o numero: "))
 
-for i in range(base):
-    base *= expoente
-
-print("O resultado é:", base)
-
-    
+print("Tabuada de", num, "é:")
+for i in range(1,11,1):
+    print(num, "x", i, "=", num * i)
